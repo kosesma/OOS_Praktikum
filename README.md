@@ -1,7 +1,7 @@
-**Autor**
-Erstellt von: Esma KOS
-Hochschule: FH Aachen
-Modul: Objektorientierte Softwareentwicklung (OOS)
+# Autor
+- Erstellt von: Esma KOS
+- Hochschule: FH Aachen
+- Modul: Objektorientierte Softwareentwicklung (OOS)
 
 
 # Bank – Objektorientierte Softwareentwicklung (OOS)
@@ -13,7 +13,7 @@ Zusätzlich wurden **JUnit 5 Tests** implementiert, um zentrale Funktionalitäte
 ---
 
 ## Features
-- Benutzer anlegen (mit Namen, Kontodaten etc.)
+- Benutzer anlegen 
 - Geldüberweisungen zwischen Konten
 - Verwaltung mehrerer Banken
 - Fehlerbehandlung bei ungültigen Transaktionen
