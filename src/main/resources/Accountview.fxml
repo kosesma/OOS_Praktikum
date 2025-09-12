@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.Accountview">
+   <children>
+      <Text layoutX="46.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name: " />
+      <Text layoutX="300.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance: " />
+      <ListView fx:id="listView" layoutX="34.0" layoutY="46.0" prefHeight="200.0" prefWidth="532.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#loeschenPopup" text="Löschen" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </ListView>
+      <Button layoutX="34.0" layoutY="276.0" mnemonicParsing="false" onAction="#aufsteigendSortieren" text="Aufsteigend" />
+      <Button layoutX="174.0" layoutY="276.0" mnemonicParsing="false" onAction="#absteigendSortieren" text="Absteigend" />
+      <Button layoutX="327.0" layoutY="276.0" mnemonicParsing="false" onAction="#positiveTransaktionen" text="Nur Positiv" />
+      <Button layoutX="465.0" layoutY="276.0" mnemonicParsing="false" onAction="#negativeTransaktionen" text="Nur Negativ" />
+      <Text layoutX="34.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sortierung / Anzeige:" />
+      <Text layoutX="32.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hinzufügen von Transaktionen:" />
+      <Button layoutX="35.0" layoutY="346.0" mnemonicParsing="false" onAction="#transaktionAddieren" text="Transaktion Hinzufügen" />
+      <Text fx:id="accountName" layoutX="93.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text fx:id="balance" layoutX="358.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance:" />
+      <Button fx:id="backButton" layoutX="516.0" layoutY="355.0" mnemonicParsing="false" onAction="#goBack" text="Zurück" />
+   </children>
+</AnchorPane>

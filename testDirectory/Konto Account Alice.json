@@ -1,0 +1,1 @@
+[{"CLASSNAME":"Payment","INSTANCE":{"incomingInterest":0.05,"outgoingInterest":0.1,"date":"2024-01-01","amount":100.0,"description":"Salary"}},{"CLASSNAME":"Payment","INSTANCE":{"incomingInterest":0.05,"outgoingInterest":0.1,"date":"2024-01-02","amount":-50.0,"description":"Rent"}}]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bank</OriginalElement>
+  <nodes>
+    <node x="-82.0" y="-13.5">bank.CalculateBill</node>
+    <node x="-202.75262368815595" y="489.0">bank.Transfer</node>
+    <node x="152.0" y="149.0">bank.Transaction</node>
+    <node x="191.5" y="489.0">bank.Payment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bank.Transaction" target="bank.CalculateBill" relationship="REALIZATION">
+      <point x="0.0" y="-129.0" />
+      <point x="287.0" y="118.0" />
+      <point x="7.0" y="118.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="bank.Transfer" target="bank.CalculateBill" relationship="REALIZATION">
+      <point x="-85.0" y="-153.0" />
+      <point x="-117.75262368815595" y="758.0" />
+      <point x="7.0" y="758.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="bank.Payment" target="bank.Transaction" relationship="GENERALIZATION">
+      <point x="-87.75" y="-129.0" />
+      <point x="279.25" y="458.0" />
+      <point x="287.0" y="458.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="bank.Transfer" target="bank.Transaction" relationship="GENERALIZATION">
+      <point x="85.0" y="-153.0" />
+      <point x="52.24737631184405" y="458.0" />
+      <point x="287.0" y="458.0" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="bank.Payment" target="bank.CalculateBill" relationship="REALIZATION">
+      <point x="87.75" y="-129.0" />
+      <point x="454.75" y="458.0" />
+      <point x="447.0" y="458.0" />
+      <point x="447.0" y="118.0" />
+      <point x="7.0" y="118.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5928888888888889" showDependencies="false" x="240.0" y="548.5" />
+  <SelectedNodes>
+    <node>bank.Transfer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
