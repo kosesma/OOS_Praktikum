@@ -27,3 +27,7 @@ Zusätzlich wurden **JUnit 5 Tests** implementiert, um zentrale Funktionalitäte
 - **JUnit 5** (für automatisierte Tests)  
 - **Maven** 
 
+![Bank Screenshot](bild1.png)
+![Bank Screenshot](bild2.png)
+![Bank Screenshot](bild3.png)
+![Bank Screenshot](bild4.png)
